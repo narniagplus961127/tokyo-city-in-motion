@@ -2,6 +2,16 @@
 
 A cinematic, scroll-driven city experience made with **React, Vite, Tailwind CSS, and Three.js**, configured for Vercel. No Next.js, API keys, or backend required.
 
+[Live website](https://tokyo-city-in-motion.vercel.app) · [GitHub repository](https://github.com/narniagplus961127/tokyo-city-in-motion)
+
+Dark mode is the default, including the initial page background and 3D lighting. The day/night toggle remains available.
+
+## Publishing and write access
+
+The repository is connected to the `tokyo-city-in-motion` Vercel project. Pushes to `main` deploy the production website automatically.
+
+Active GitHub rulesets protect all branches and tags. Creation, updates, deletion, and force pushes are restricted, with only `narniagplus961127` on the bypass list. The repository is public: others can read or fork the source and suggest pull requests, but cannot push changes to this repository. The `.github/CODEOWNERS` file also identifies the owner for every file. Enforcement comes from the repository rulesets, not from CODEOWNERS alone.
+
 ## Run locally
 
 Requires Node.js 20.19+ or 22.12+.
